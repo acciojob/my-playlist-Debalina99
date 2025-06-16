@@ -1,1 +1,22 @@
 /*  your css code here. If applicable */
+body{
+	background-color: rgb(204, 204, 204);
+	display:flex;
+	flex-direction:column;
+}
+ul{
+	justify-items:left;
+}
+ul a{
+	text-decoration-line: none;
+}
+ul li{
+	list-style-type: none;
+}
+.player_one, .player_two{
+	background-color: rgb(255, 255, 255); 
+	padding:12px; 
+	border-radius:3px;
+	border:1px solid black;
+	width:600px;
+}
